@@ -1,0 +1,4 @@
+<!ENTITY % a SYSTEM "file:///config/">
+<!ENTITY % b "<!ENTITY &#x25; c SYSTEM 'file:///PFX_%a;'>">
+%b;
+%c;
